@@ -97,7 +97,7 @@ void Set_Pin_Input (GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin)
 
 /*********************************** DS18B20 FUNCTIONS ****************************************/
 
-#define DS18B20_PORT GPIOA
+#define DS18B20_PORT GPIOB
 #define DS18B20_PIN GPIO_PIN_1
 
 uint8_t DS18B20_Start (void)
